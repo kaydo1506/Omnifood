@@ -658,3 +658,9 @@ footer p {
 .js--wp-3.animated {
     opacity: 1;
 }
+
+.showing-off {
+    color: #fff;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
