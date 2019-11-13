@@ -114,4 +114,21 @@ $(document).ready(function() {
             icon.removeClass('ion-close-round');
         }
     });
+
+    /* Maps */
+    var map = new GMaps({
+        div: '.map',
+        lat: 9.0543071,
+        lng: 7.2542701,
+        zoom: 12,
+    });
+
+    map.addMarker({
+        lat: 9.0543071,
+        lng: 7.2542701,
+        title: 'Abuja',
+        infoWindow: {
+            content: '<p>Our Abuja HQ</p>',
+        },
+    });
 });
